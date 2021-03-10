@@ -16,14 +16,12 @@ started = False
 
 max_range = 900
 min_range = 1
-life = True
 
 
 @bot.event
 async def on_ready():
     print(f'{bot.user.name} has connected to Discord!')
-    while life:
-        await updateStatus()
+
 
 
 @bot.command(name='start')
