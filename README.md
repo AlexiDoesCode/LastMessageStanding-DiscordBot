@@ -14,7 +14,7 @@ A last message standing discord bot!
 pip install discord.py
 pip install asyncio
 ```
-3. Open main.py and replace the token variable, and the challenge_channel variable.
+2. Open main.py and replace the token variable, and the challenge_channel variable.
 
 
 ## Disclaimer
